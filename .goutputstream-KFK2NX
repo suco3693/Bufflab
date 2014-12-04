@@ -1,0 +1,5 @@
+movl $0x6fe76275, %eax
+movl $$0x08048d3e, 8(%ebp)
+pushl $0x08048d3e
+leave
+ret
